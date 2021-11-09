@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In class Exercise</title>
+    <link rel="stylesheet" type="text/css" href="inClassStyle.css" />
+</head>
+
+  <body>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br><br>
+    
+    <input type="checkbox" id="checkBox" name="checkBox" value="Check">
+    <label for="checkbox"> Check this box</label><br><br>
+    
+    <input type="submit" id = "submitButton" value="Submit">
+
+    <div id="load"></div>
+
+      <script src="script2.js"></script>
+    <script>
+      (function() {
+        app.initialize();
+      })();
+
+    </script>
+  </body>
+</html>
